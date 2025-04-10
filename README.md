@@ -1,2 +1,2 @@
 # Exercises
-This repository contains some common exersices on interviews
+This repository contains some common exercises on interviews
