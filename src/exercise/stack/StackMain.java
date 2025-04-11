@@ -1,7 +1,10 @@
 package src.exercise.stack;
 
 
-//FILO
+/*
+    * This is a simple stack (Fist In Last Out) created with java.
+*/
+
 interface Stack {
     void push(int element);
     void pop();
