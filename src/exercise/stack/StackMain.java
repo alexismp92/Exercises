@@ -15,7 +15,7 @@ interface Stack {
 class StackImp implements Stack {
 
     private final int[] stack;
-    private static int position;
+    private int position;
 
     public StackImp(int size) {
         stack = new int[size];
@@ -39,7 +39,6 @@ class StackImp implements Stack {
         } else {
             System.out.println("Popped element: " + stack[position - 1]);
             position--;
-            stack[position] = 0;
         }
     }
 
@@ -50,9 +49,7 @@ class StackImp implements Stack {
             return -1;
         } else {
             System.out.println("Peeked element: " + stack[position - 1]);
-            var peekedElement = stack[position - 1];
-            pop();
-            return peekedElement;
+            return stack[position - 1];
         }
     }
 
