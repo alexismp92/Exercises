@@ -1,4 +1,4 @@
-package src.exercise;
+package src.exercise.cart;
 
 
 import java.util.ArrayList;
